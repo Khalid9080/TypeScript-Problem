@@ -1,7 +1,7 @@
 # TypeScript-Problem
 ## Question-03: Explain the difference between any, unknown, and never types in TypeScript.
 
-✅ 1) Difference Between any, unknown, and never in TypeScript
+✅ Difference Between any, unknown, and never in TypeScript
 
 🔹 any
 - The most flexible and least safe type.
@@ -31,6 +31,53 @@
 
 
 
-##
+## Question-04: What is the use of enums in TypeScript? Provide an example of a numeric and string enum.
 
+✅ What is the use of enums in TypeScript?
 
+Enums in TypeScript are used to define a group of related constant values under a single meaningful name.
+They help make code:
+
+- More readable
+- Less error-prone
+- Easier to maintain
+
+More descriptive than using raw numbers or strings. Enums are especially useful when certain values represent fixed categories, such as user roles, directions, statuses, or modes. They prevent "magic numbers" or repeated string literals and also provide TypeScript’s type safety by restricting values to a predefined set.
+
+✅ Numeric Enum (Description)
+A numeric enum is an enum where the constant values are numbers.
+The numbers may start from zero or any custom number.
+If a starting number is given, the next values automatically increase by 1.
+
+Use cases:
+- Directions (Up, Down, Left, Right)
+- Levels (Beginner, Intermediate, Advanced)
+- Status codes
+  
+```
+enum Direction {
+  Up = 1,
+  Down,
+  Left,
+  Right
+}
+
+```
+
+✅ String Enum (Description)
+A string enum is an enum where each constant value is a string.
+Every value must be explicitly written because strings do not auto-increment like numbers.
+
+Use cases:
+- User roles (Admin, Editor, Viewer)
+- API status ("SUCCESS", "ERROR", "LOADING")
+- Categories that must be human-readable
+
+```
+enum Status {
+  Success = "SUCCESS",
+  Error = "ERROR",
+  Pending = "PENDING"
+}
+
+```
