@@ -2,6 +2,7 @@
 ## Explain the difference between any, unknown, and never types in TypeScript.
 
 ✅ 1) Difference Between any, unknown, and never in TypeScript
+
 🔹 any
 - The most flexible and least safe type.
 - Tells TypeScript to stop checking the type.
