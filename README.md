@@ -1,5 +1,5 @@
 # TypeScript-Problem
-## Problem-03: Explain the difference between any, unknown, and never types in TypeScript.
+## Question-03: Explain the difference between any, unknown, and never types in TypeScript.
 
 ✅ 1) Difference Between any, unknown, and never in TypeScript
 
