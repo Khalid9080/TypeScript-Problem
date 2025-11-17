@@ -23,3 +23,10 @@
 - Also used in exhaustive checks to ensure all cases are handled.
 - Nothing can be assigned to never.
 
+| Type        | Meaning                                 | Safety Level | When to Use                         |
+| ----------- | --------------------------------------- | ------------ | ----------------------------------- |
+| **any**     | Anything allowed, no checks             | ❌ Least safe | Temporary escape from type checking |
+| **unknown** | Any value, but must validate before use | ✔ Safer      | Handling uncertain or external data |
+| **never**   | Impossible value, never returns         | ✔✔ Very safe | Error functions, exhaustive checks  |
+
+
