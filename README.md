@@ -29,9 +29,7 @@
 | **unknown** | Any value, but must validate before use | ✔ Safer      | Handling uncertain or external data |
 | **never**   | Impossible value, never returns         | ✔✔ Very safe | Error functions, exhaustive checks  |
 
-
-
-
+#
 
 ## Question-04: What is the use of enums in TypeScript? Provide an example of a numeric and string enum.
 
